@@ -190,7 +190,7 @@
 }
 
 /* Tone down the decorative blue sweep so it doesn't dominate the warm page */
-.theme-light .blue-sweep {
+.theme-light .blue-sweep.opacity-100 {
   opacity: 0.35;
   filter: saturate(0.6) brightness(1.15);
 }
