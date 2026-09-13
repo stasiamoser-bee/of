@@ -189,6 +189,12 @@
   filter: brightness(0.15);
 }
 
+/* Tone down the decorative blue sweep so it doesn't dominate the warm page */
+.theme-light .blue-sweep {
+  opacity: 0.35;
+  filter: saturate(0.6) brightness(1.15);
+}
+
 @theme inline {
   --font-display: var(--font-display);
   --font-body: var(--font-body);
