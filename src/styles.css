@@ -171,17 +171,22 @@
   );
   --gradient-orbit-center: radial-gradient(
     circle at 30% 25%,
-    oklch(0.55 0.13 268),
-    oklch(0.42 0.15 268) 50%,
-    oklch(0.30 0.11 268)
+    oklch(0.45 0.13 268),
+    oklch(0.32 0.15 268) 50%,
+    oklch(0.22 0.11 268)
   );
   --gradient-orbit-label: radial-gradient(
     circle at 30% 25%,
-    oklch(0.55 0.13 268),
-    oklch(0.42 0.15 268) 55%,
-    oklch(0.30 0.11 268)
+    oklch(0.45 0.13 268),
+    oklch(0.32 0.15 268) 55%,
+    oklch(0.22 0.11 268)
   );
   --shadow-soft: 0 24px 60px -24px oklch(0.25 0.02 90 / 20%);
+}
+
+/* The main logo is light-on-transparent; invert it for the light page */
+.theme-light .logo-krossart {
+  filter: brightness(0.15);
 }
 
 @theme inline {
