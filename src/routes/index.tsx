@@ -226,7 +226,7 @@ function Index() {
                     alt=""
                     aria-hidden="true"
                     loading="lazy"
-                    className={`pointer-events-none absolute left-0 top-[25rem] hidden w-full max-w-md select-none object-contain transition-opacity duration-500 md:block ${
+                    className={`blue-sweep pointer-events-none absolute left-0 top-[25rem] hidden w-full max-w-md select-none object-contain transition-opacity duration-500 md:block ${
                       active === null ? "opacity-0" : "opacity-100"
                     }`}
                   />
