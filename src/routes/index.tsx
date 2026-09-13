@@ -140,7 +140,7 @@ function Index() {
               alt="КроссАрт"
               width={1245}
               height={240}
-              className="w-full max-w-[560px] md:max-w-[720px]"
+              className="logo-krossart w-full max-w-[560px] md:max-w-[720px]"
             />
           </h1>
           <div className="mt-6 flex flex-wrap items-start justify-between gap-6">
