@@ -120,7 +120,7 @@ function Index() {
   const [activeProgram2, setActiveProgram2] = useState<number | null>(null);
 
   return (
-    <main className="[overflow-x:clip] bg-background">
+    <main className="theme-light [overflow-x:clip] min-h-screen bg-background">
       {/* HERO */}
       <section className="relative isolate overflow-hidden">
         <div className="pointer-events-none absolute inset-0 -z-10">
@@ -140,7 +140,7 @@ function Index() {
               alt="КроссАрт"
               width={1245}
               height={240}
-              className="w-full max-w-[560px] md:max-w-[720px]"
+              className="logo-krossart w-full max-w-[560px] md:max-w-[720px]"
             />
           </h1>
           <div className="mt-6 flex flex-wrap items-start justify-between gap-6">
@@ -226,7 +226,7 @@ function Index() {
                     alt=""
                     aria-hidden="true"
                     loading="lazy"
-                    className={`pointer-events-none absolute left-0 top-[25rem] hidden w-full max-w-md select-none object-contain transition-opacity duration-500 md:block ${
+                    className={`blue-sweep pointer-events-none absolute left-0 top-[25rem] hidden w-full max-w-md select-none object-contain transition-opacity duration-500 md:block ${
                       active === null ? "opacity-0" : "opacity-100"
                     }`}
                   />
@@ -445,7 +445,7 @@ function Index() {
             width={1245}
             height={240}
             loading="lazy"
-            className="w-full max-w-[900px] opacity-90"
+            className="logo-krossart w-full max-w-[900px] opacity-90"
           />
         </div>
 
