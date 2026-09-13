@@ -120,7 +120,7 @@ function Index() {
   const [activeProgram2, setActiveProgram2] = useState<number | null>(null);
 
   return (
-    <main className="[overflow-x:clip] bg-background">
+    <main className="theme-light [overflow-x:clip] min-h-screen bg-background">
       {/* HERO */}
       <section className="relative isolate overflow-hidden">
         <div className="pointer-events-none absolute inset-0 -z-10">
