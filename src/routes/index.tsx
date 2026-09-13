@@ -5,7 +5,6 @@ import { HeroArtCarousel } from "@/components/HeroArtCarousel";
 import { OrbitingLanguages } from "@/components/OrbitingLanguages";
 
 import logoKrossart from "@/assets/logo-krossart.png.asset.json";
-import heroBg from "@/assets/hero-bg-kandinsky.jpg.asset.json";
 
 import progMirror from "@/assets/prog-mirror.png.asset.json";
 import progCoinLady from "@/assets/prog-coin-lady.png.asset.json";
@@ -123,16 +122,6 @@ function Index() {
     <main className="theme-light [overflow-x:clip] min-h-screen bg-background">
       {/* HERO */}
       <section className="relative isolate overflow-hidden">
-        <div className="pointer-events-none absolute inset-0 -z-10">
-          <img
-            src={heroBg.url}
-            alt=""
-            aria-hidden="true"
-            className="h-full w-full object-cover opacity-35"
-          />
-          <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/60 to-background" />
-        </div>
-
         <div className="relative mx-auto max-w-[1400px] px-6 pt-12 pb-0 md:px-10">
           <h1 className="flex justify-center">
             <img
@@ -143,12 +132,9 @@ function Index() {
               className="logo-krossart w-full max-w-[560px] md:max-w-[720px]"
             />
           </h1>
-          <div className="mt-6 flex flex-wrap items-start justify-between gap-6">
-            <p className="label-xs text-xl text-foreground md:text-3xl">пространство</p>
-            <p className="label-xs text-right text-xl text-foreground md:max-w-[26rem] md:text-3xl">
-              эксклюзивного
-              <br />
-              развития
+          <div className="mt-6 flex justify-center">
+            <p className="label-xs text-center text-xl text-foreground md:text-3xl">
+              Искусство лидерства
             </p>
           </div>
         </div>
