@@ -122,6 +122,10 @@ function Index() {
     <main className="theme-light [overflow-x:clip] min-h-screen bg-background">
       {/* HERO */}
       <section className="relative isolate overflow-hidden">
+        <div
+          className="pointer-events-none absolute inset-4 -z-10 rounded-sm border border-primary/60 md:inset-6"
+          aria-hidden="true"
+        />
         <div className="relative mx-auto max-w-[1400px] px-6 pt-12 pb-0 md:px-10">
           <h1 className="flex justify-center">
             <img
