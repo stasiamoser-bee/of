@@ -18,7 +18,7 @@ export function OrbitingLanguages() {
         src={domeGlow.url}
         alt=""
         aria-hidden
-        className="pointer-events-none absolute left-1/2 top-[62%] w-[135%] max-w-none -translate-x-1/2 opacity-60"
+        className="dome-glow pointer-events-none absolute left-1/2 top-[62%] w-[135%] max-w-none -translate-x-1/2 opacity-60"
       />
 
       {/* soft glow */}
