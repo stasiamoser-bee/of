@@ -195,6 +195,12 @@
   filter: saturate(0.6) brightness(1.15);
 }
 
+/* Soften the orbit dome glow against the warm light background */
+.theme-light .dome-glow {
+  opacity: 0.18;
+  filter: saturate(0.5) brightness(1.2);
+}
+
 @theme inline {
   --font-display: var(--font-display);
   --font-body: var(--font-body);
