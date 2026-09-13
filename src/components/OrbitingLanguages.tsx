@@ -29,7 +29,7 @@ export function OrbitingLanguages() {
       <div className="pointer-events-none absolute inset-[8%] rounded-full border border-border/60" />
 
       {/* center */}
-      <div className="absolute inset-[22%] flex items-center justify-center rounded-full border-2 border-primary/70 bg-[var(--gradient-orbit-center)] p-4 text-center shadow-[var(--shadow-soft)]">
+      <div className="absolute inset-[22%] flex items-center justify-center rounded-full border-2 border-primary/70 bg-[image:var(--gradient-orbit-center)] p-4 text-center shadow-[var(--shadow-soft)]">
         <p className="display-xl text-base font-semibold uppercase tracking-[0.14em] leading-tight text-primary-foreground sm:text-2xl md:text-3xl">
           Лидер
         </p>
@@ -45,7 +45,7 @@ export function OrbitingLanguages() {
           return (
             <span
               key={label}
-              className="absolute flex h-16 w-16 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border-2 border-primary/70 bg-[var(--gradient-orbit-label)] px-1 text-center text-[0.5rem] leading-tight tracking-[0.14em] font-semibold uppercase text-primary-foreground backdrop-blur-sm animate-[orbit-spin-reverse_48s_linear_infinite] sm:h-24 sm:w-24 sm:text-[0.6rem] md:h-28 md:w-28 md:text-[0.68rem]"
+              className="absolute flex h-16 w-16 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border-2 border-primary/70 bg-[image:var(--gradient-orbit-label)] px-1 text-center text-[0.5rem] leading-tight tracking-[0.14em] font-semibold uppercase text-primary-foreground backdrop-blur-sm animate-[orbit-spin-reverse_48s_linear_infinite] sm:h-24 sm:w-24 sm:text-[0.6rem] md:h-28 md:w-28 md:text-[0.68rem]"
               style={{ left: `${left}%`, top: `${top}%` }}
             >
               {label}
