@@ -445,7 +445,7 @@ function Index() {
             width={1245}
             height={240}
             loading="lazy"
-            className="w-full max-w-[900px] opacity-90"
+            className="logo-krossart w-full max-w-[900px] opacity-90"
           />
         </div>
 
