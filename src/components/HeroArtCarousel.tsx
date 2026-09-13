@@ -1,18 +1,20 @@
 import { useEffect, useState } from "react";
 
-import pearlGirl from "@/assets/art-pearl-girl.png.asset.json";
-import dragon from "@/assets/art-dragon.png.asset.json";
-import kandinsky from "@/assets/art-kandinsky.png.asset.json";
-import samurai from "@/assets/art-samurai.png.asset.json";
-import ladyCup from "@/assets/art-lady-cup.png.asset.json";
+import samuraiClouds from "@/assets/hero-samurai-clouds.png.asset.json";
+import davidClouds from "@/assets/hero-david-clouds.png.asset.json";
+import faceSky from "@/assets/hero-face-sky.png.asset.json";
+import lionClouds from "@/assets/hero-lion-clouds.png.asset.json";
+import emperorClouds from "@/assets/hero-emperor-clouds.png.asset.json";
+import pegasusClouds from "@/assets/hero-pegasus-clouds.png.asset.json";
 
 
 const slides = [
-  { url: pearlGirl.url, alt: "Девушка с жемчужной серёжкой" },
-  { url: kandinsky.url, alt: "Абстрактная композиция Кандинского" },
-  { url: samurai.url, alt: "Хромированная скульптура самурая" },
-  { url: ladyCup.url, alt: "Дама с чашкой чая" },
-  { url: dragon.url, alt: "Хромированная скульптура дракона" },
+  { url: samuraiClouds.url, alt: "Самурай с небом и облаками" },
+  { url: davidClouds.url, alt: "Скульптурный портрет с небом и птицей" },
+  { url: faceSky.url, alt: "Скульптурное лицо с небом и птицей" },
+  { url: lionClouds.url, alt: "Лев с небом и облаками" },
+  { url: emperorClouds.url, alt: "Император с небом и облаками" },
+  { url: pegasusClouds.url, alt: "Крылатый конь с небом и облаками" },
 ];
 
 export function HeroArtCarousel() {
