@@ -197,8 +197,8 @@
 
 /* Soften the orbit dome glow against the warm light background */
 .theme-light .dome-glow {
-  opacity: 0.12 !important;
-  filter: saturate(0.4) brightness(1.25);
+  opacity: 0.06 !important;
+  filter: sepia(1) hue-rotate(350deg) saturate(0.35) brightness(1.3);
 }
 
 @theme inline {
