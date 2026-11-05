@@ -70,8 +70,6 @@ const clients = ["ВТБ", "Альфа-Банк", "Сбер", "Газпром н
 
 const btn =
   "inline-block rounded-md bg-primary px-7 py-3.5 text-xs tracking-[0.18em] uppercase text-primary-foreground shadow-lg transition-transform hover:-translate-y-0.5";
-const btnInv =
-  "inline-block rounded-md bg-background px-7 py-3.5 text-xs tracking-[0.18em] uppercase text-primary shadow-lg transition-transform hover:-translate-y-0.5";
 
 function Index() {
   return (
