@@ -124,7 +124,7 @@ function Index() {
             {thinking.map(([t, d], i) => (
               <div key={t} className="rounded-xl border border-primary-foreground/25 bg-primary-foreground/10 p-6 transition-colors hover:bg-primary-foreground/20">
                 <p className="font-display text-3xl opacity-60">0{i + 1}</p>
-                <p className="mt-3 font-semibold tracking-[0.1em] uppercase">{t}</p>
+                <p className="mt-3 text-sm font-semibold tracking-[0.05em] uppercase">{t}</p>
                 <p className="mt-2 text-sm opacity-80">{d}</p>
               </div>
             ))}
